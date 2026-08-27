@@ -12,7 +12,7 @@ export const mockAuthors = [
     id: 'author-1',
     name: 'Maanik Agarwal',
     username: 'maanik',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face',
+    avatar: '',
     bio: 'Senior Software Engineer at Google. Passionate about building scalable systems and mentoring the next generation of developers. Writing about tech, career growth, and productivity.',
     social: {
       twitter: 'https://twitter.com/sarahchen',
