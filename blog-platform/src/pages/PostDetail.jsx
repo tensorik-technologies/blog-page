@@ -10,7 +10,7 @@ import { useToast } from '../context/ToastContext';
 import { formatDate, formatRelativeTime, calculateReadingTime, getRelatedPosts } from '../utils/helpers';
 import { parseMarkdown } from '../utils/markdown';
 import { categories } from '../data/mockData';
-import { Button, Badge, Avatar, Modal, CategoryBadge, Card, Skeleton } from '../components/ui';
+import { Button, Badge, Avatar, Modal, CategoryBadge, Card, Skeleton, PostDetailSkeleton } from '../components/ui';
 
 export default function PostDetail() {
   const { id } = useParams();
@@ -598,5 +598,3 @@ function AuthorCard({ author, postCount }) {
     </div>
   );
 }
-
-import { PostDetailSkeleton } from '../components/ui';

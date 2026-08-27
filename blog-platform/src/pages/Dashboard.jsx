@@ -5,7 +5,8 @@ import { useBlog } from '../context/BlogContext';
 import { useToast } from '../context/ToastContext';
 import { formatDate, formatRelativeTime, sortByDate, paginate } from '../utils/helpers';
 import { categories } from '../data/mockData';
-import { Button, Badge, Avatar, Card, Input, Modal, Dropdown } from '../components/ui';
+import { Button, Badge, Avatar, Card, Input, Modal, Dropdown, CategoryBadge } from '../components/ui';
+import { clsx } from 'clsx';
 
 const POSTS_PER_PAGE = 10;
 
@@ -326,5 +327,3 @@ function StatCard({ label, value, icon, color }) {
     </Card>
   );
 }
-
-import { clsx } from 'clsx';

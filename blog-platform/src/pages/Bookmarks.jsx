@@ -7,6 +7,7 @@ import { categories } from '../data/mockData';
 import { filterByCategory, searchPosts, sortByDate, paginate } from '../utils/helpers';
 import { BlogCard } from '../components/blog';
 import { Button, Badge, Input, Skeleton, Avatar, CategoryBadge } from '../components/ui';
+import { clsx } from 'clsx';
 
 const POSTS_PER_PAGE = 6;
 
@@ -265,5 +266,3 @@ export default function Bookmarks() {
     </div>
   );
 }
-
-import { clsx } from 'clsx';

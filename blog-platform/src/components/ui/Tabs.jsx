@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, createContext, useContext } from 'react';
 import { clsx } from 'clsx';
 
 export function Tabs({ value, onChange, children, className = '', defaultValue }) {
@@ -105,5 +105,3 @@ export function TabPanel({ value, children, className = '', ...props }) {
     </div>
   );
 }
-
-import { createContext, useContext } from 'react';
